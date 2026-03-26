@@ -47,85 +47,87 @@ border-radius: 8px;
 	text-align: center;
 	bottom: 0;
 	padding: 10px;
-	background: #111;
+	background: #FFFDF7;
 	width: 98.7%;
 }
 
 #container{
-display: flex;
-justify-content: space-between;
-align-items: flex-start;
-flex-wrap: wrap;
+display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    padding: 4rem;
+	align-items: stretch;
 }
 
 #conteudo2{
-margin: 35px;
-padding: 12px;
-width: 45%;
+margin: 0px;
+padding: 8px;
+width: 95%;
 text-align: left;
-color: #d2d2c1;
+color: #0e0332;
 text-align:left;
 font-size: 1.1em;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-box-shadow:4px 4px 8px #333;
-background-color: #111;
+box-shadow:4px 4px 8px #999;
+background-color: #FFFDF7;
 border-radius: 8px;
 }
 
 #conteudo3{
-margin: 35px;
-padding: 10px;
-width: 45%;
+margin: 0px;
+padding: 8px;
+width: 95%;
 text-align: left;
-color: #d2d2c1;
+color: #0e0332;
+text-align:left;
 font-size: 1.1em;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-box-shadow:4px 4px 8px #333;
-background-color: #111;
+box-shadow:4px 4px 8px #999;
+background-color: #FFFDF7;
 border-radius: 8px;
 }
 
 #tituloBio{
 text-align: center;
-font-family: "Titulo";
+font-family: "Poppins";
 }
 
 #conteudoCursos{
-margin: 35px;
-padding: 10px;
-width: 45%;
+margin: 0px;
+padding: 8px;
+width: 95%;
 text-align: left;
-color: #d2d2c1;
+color: #0e0332;
 font-size: 1.1em;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-box-shadow:4px 4px 8px #333;
-background-color: #111;
+box-shadow:4px 4px 8px #999;
+background-color: #FFFDF7;
 border-radius: 8px;
 }
 
 #conteudo4{
-margin: 35px;
-padding: 10px;
-width: 45%;
+margin: 0px;
+padding: 8px;
+width: 95%;
 text-align: left;
-color: #d2d2c1;
+color: #0e0332;
 font-size: 1.1em;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-box-shadow:4px 4px 8px #333;
-background-color: #111;
+box-shadow:4px 4px 8px #999;
+background-color: #FFFDF7;
 border-radius: 8px;
 }
 
 #conteudo5{
-margin: 35px;
-padding: 10px;
-width: 45%;
+margin: 0px;
+padding: 8px;
+width: 95%;
 text-align: left;
-color: #d2d2c1;
+color: #0e0332;
 font-size: 1.1em;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-box-shadow:4px 4px 8px #333;
-background-color: #111;
+box-shadow:4px 4px 8px #999;
+background-color: #FFFDF7;
 border-radius: 8px;
 }
 
@@ -172,7 +174,7 @@ background: linear-gradient(#FFF);    background-size: cover;
 #textoMenu{
 display: flex;
 padding: 10px;
-margin: 25px;
+margin: 0px;
 text-align: center;
 justify-content: space-between
 }
